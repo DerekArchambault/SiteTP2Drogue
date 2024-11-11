@@ -1,0 +1,46 @@
+html {
+    background-color: #7EA3CC;
+    font-size: 17px;
+}
+
+header {
+    height: 6em;
+    text-align: center;
+    background-color: #255C99;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+#organisme {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+#ressources {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+#ressources h1 {
+    grid-column: 1/-1;
+}
+
+#Traitement {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+#caractéristiques {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+}
+
+img {
+    margin-top: 100px;
+}
